@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EastRailPlayer"
         mc:Ignorable="d"
-        Title="East Rail Player" Height="350" Width="525">
+        Title="East Rail Player" Height="350" Width="561.503">
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="127" Margin="40,59,0,0" VerticalAlignment="Top" Width="239" Source="Photos/004.jpeg"/>
-
+        <Image x:Name="img_01" HorizontalAlignment="Left" Height="127" Margin="17,19,0,0" VerticalAlignment="Top" Width="239" Source="Photos/004.jpeg"/>
+        <Image x:Name="img_02" HorizontalAlignment="Left" Height="127" Margin="279,19,0,0" VerticalAlignment="Top" Width="169" Source="Photos/dc-001.jpeg"/>
+        <Label x:Name="label" Content="Baltimore, MD" HorizontalAlignment="Left" Margin="17,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Reston, VA" HorizontalAlignment="Left" Margin="279,151,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
